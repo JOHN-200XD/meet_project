@@ -1,9 +1,43 @@
-a {
-    font-size: 1.2rem;
+li a {
+    top: 50%;
+    font-size: 2rem;
     color: gray;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 li {
+    display: inline-block;
     list-style: none;
-    margin: 0 1rem;
+    margin: 20px 1rem;
+    }
+    
+    li:hover a {
+        color: rgb(255, 0, 0);
+    }
+    
+    li a:active {
+        color: rgb(0, 187, 255);
+    }
+    
+    .logo img {
+        width: 70px;
+        height: auto;
+        border: 1px solid white;
+        border-radius: 17px;
+    }
+    
+    .logo h1 {
+        color: white;
+        position: relative;
+        font-size: 1.8rem;
+        top: 0rem;
+        left: 5.5rem;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        text-align: center;
+        top: 0;
 }
